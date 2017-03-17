@@ -68,18 +68,6 @@
   width: auto;
 }
 
-
-//  Clear floats.
-//  http://bit.ly/1e3YaBH
-%clearfix {
-
-  &::after {
-    clear: both;
-    content: '';
-    display: table;
-  }
-}
-
 // Ellipsis
 %text-overflow {
   @include ellipsis();

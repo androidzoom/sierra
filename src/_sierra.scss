@@ -24,8 +24,13 @@
 @import 'scss/tags';
 @import 'scss/typography';
 
-@if $flexboxgrid {
+
+@import 'scss/bootstrapgrid';
+/*
+ * Always false for Appszoom and Mobonaut
+ */
+/*@if $flexboxgrid {
   @import 'scss/flexboxgrid';
 }@else {
   @import 'scss/bootstrapgrid';
-}
+}*/

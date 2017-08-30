@@ -51,7 +51,6 @@ textarea {
 .input,
 .select {
   //border:1px solid $blue-light;
-  border: 0;
   border: 1px solid $border-color;
   border-radius: $radius;
   box-shadow: none;
@@ -192,8 +191,7 @@ input[type=radio] {
       font-size: 14px!important;
       height: 24px;
       line-height: 24px;
-      padding: 0 5px;
-      padding-right: 27px;
+      padding: 0 27px 0 5px;
     }
   }
 }
@@ -264,9 +262,7 @@ textarea {
 
 .checkbox,
 .radio {
-  margin: 0;
-  margin-bottom: 5px;
-  margin-right: 20px;
+  margin: 0 20px 5px 0;
   padding-left: 25px;
   position: relative;
 }

@@ -186,7 +186,7 @@ $rotation-rating-10 : 180deg;
 
 
 .rating-color-1 .circle-fill,
-.rating-color-1 .circle-full, {  transform: rotate($rotation-rating-1); }
+.rating-color-1 .circle-full {  transform: rotate($rotation-rating-1);}
 .rating-color-2 .circle-fill,
 .rating-color-2 .circle-full {  transform: rotate($rotation-rating-2);}
 .rating-color-3 .circle-fill,
